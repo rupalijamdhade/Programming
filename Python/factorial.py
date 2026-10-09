@@ -1,2 +1,4 @@
+# take a input from user and returns its factorial
 import math
-print(math.factorial(5))
+num=int(input("enter the number:"))
+print(math.factorial(num))
