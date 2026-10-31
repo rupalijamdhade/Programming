@@ -2,7 +2,7 @@
 //
 //  Header Files Inclusion
 //
-//////////////////////////////////////////////////////
+////////////////////////////////////////////////////
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -156,7 +156,6 @@ PINODE head = NULL;
 //  Function Name :     InitialiseUAREA
 //  Description :       It is used to initialise UAREA
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              31/07/2026
 //
 //////////////////////////////////////////////////////
 
@@ -179,7 +178,6 @@ void InitialiseUAREA()
 //  Function Name :     InitialiseSuperBlock()
 //  Description :       It is used to initialise super block
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              31/07/2026
 //
 //////////////////////////////////////////////////////
 
@@ -196,7 +194,6 @@ void InitialiseSuperBlock()
 //  Function Name :     CreateDILB()
 //  Description :       It is used to create linked list of inodes
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              31/07/2026
 //
 //////////////////////////////////////////////////////
 
@@ -243,7 +240,6 @@ void CreateDILB()
 //  Description :       It is used to call all such functions
 //                      which are used to initialise auxillary data
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              31/07/2026
 //
 //////////////////////////////////////////////////////
 
@@ -266,8 +262,6 @@ void StartAuxillaryDataInitialisation()
 //  Description :       It is used to display help to
 //                      the user of project
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              1/08/2026
-//
 //////////////////////////////////////////////////////
 
 void DisplayHelp()
@@ -297,7 +291,6 @@ void DisplayHelp()
 //                      of specific command
 //  Input :             Name of command
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
 
@@ -334,7 +327,6 @@ void ManPageDisplay(char Name[])
 //  Output :            True of presnt
 //                      False is not present
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
 
@@ -366,7 +358,6 @@ bool IsFileExist(
 //  Input :             Name of file & Permissions
 //  Output :            File Descriptor
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
 
@@ -474,7 +465,6 @@ int CreateFile (
 //  Input :             None
 //  Output :            None
 //  Author :            Rupali Sharad Jamdhade
-//  Date :              1/08/2026
 //
 //////////////////////////////////////////////////////
 
