@@ -48,6 +48,9 @@ def FindDuplicate(DirectoryName = "PUCSD"):
 def DeleteDuplicate(Path = "PUCSD"):
     MyDict = FindDuplicate(Path)
 
+    if MyDict is None:
+        return
+
     Result = list(filter(lambda x : len(x) > 1, MyDict.values()))
 
     Count = 0
